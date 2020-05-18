@@ -239,7 +239,7 @@ def train_networks(network_proprieties, pop_size, num_macroevolution_gen, num_mi
    from_gen = negative number (-71) = macro gen number (1.71), positive number (71) = micro gen number (2.71) 
    how_percise = how many games are played to find out the fitness from the generation"""
 
-nw_proprieties = [24, 2, 30, 1]
+nw_proprieties = [24, 2, 40, 1]
 population_size = 500
 howmany_macroevolutions = 10
 howmany_microevolutions = 100
