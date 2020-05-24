@@ -43,9 +43,9 @@ def game_human_vs_ai(network, human_player_color):
     for i in range(82):
         if Mill_humans.count_stones(board)[0] < 3 or Mill_humans.count_stones(board)[1] < 3:
             if Mill_humans.count_stones(board)[0] < 3 or len(Mill_for_AIs.poss_move(board, human_player_color)) == 0:
-                print("black wins")
+                print("Black wins")
             else:
-                print("Whit Wins!")
+                print("White Wins!")
             break
         if move:
             board = Mill_humans.move(human_player_color, board)
